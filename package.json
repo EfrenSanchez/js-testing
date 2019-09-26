@@ -1,28 +1,29 @@
 {
-  "name": "js-testing-introduction",
+  "name": "js-testing",
   "version": "1.0.0",
-  "description": "An introduction to JS testing",
+  "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "webpack app.js --mode development --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EfrenSanchez/js-testing.git"
   },
   "keywords": [
-    "js",
-    "javascript",
-    "testing",
-    "jest",
-    "unit",
-    "tests",
-    "integration",
-    "tests",
-    "e2e",
-    "tests"
+    "test",
+    "testing"
   ],
-  "author": "Maximilian Schwarzmüller/ Academind GmbH",
-  "license": "ISC",
+  "author": "Efren Sanchez <efren.sanchezgon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EfrenSanchez/js-testing/issues"
+  },
+  "homepage": "https://github.com/EfrenSanchez/js-testing#readme",
   "devDependencies": {
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2"
+    "jest": "^24.9.0",
+    "puppeteer": "^1.20.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
   }
 }
